@@ -951,7 +951,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .btn {
   background-color: #000000;
-  border: 1px solid lightgreen;
+  border: 2px solid gray;
   border-radius: 5px;
 }
 
@@ -965,10 +965,18 @@ h1, h2, h3, h4, h5, h6 {
 .img-fit {
   border-radius: 20px;
   max-height: 60vh !important; 
+  max-width: 100vw !important;
   right: 0;
-  width: auto;
-  display: inline;
-  margin: 20px;
+  display: inline-block;
+  margin: 0;
+}
+
+.accented {
+  border: 1px solid lightgreen;
+}
+
+.text-center {
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */
