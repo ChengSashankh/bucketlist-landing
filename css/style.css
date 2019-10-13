@@ -1,10 +1,10 @@
-@font-face {
+/* @font-face {
   font-family: 'icomoon';
   src: url("../fonts/icomoon/icomoon.eot?srf3rx");
   src: url("../fonts/icomoon/icomoon.eot?srf3rx#iefix") format("embedded-opentype"), url("../fonts/icomoon/icomoon.ttf?srf3rx") format("truetype"), url("../fonts/icomoon/icomoon.woff?srf3rx") format("woff"), url("../fonts/icomoon/icomoon.svg?srf3rx#icomoon") format("svg");
   font-weight: normal;
   font-style: normal;
-}
+} */
 /* =======================================================
 *
 * 	Template Style 
@@ -12,13 +12,15 @@
 *
 * ======================================================= */
 body {
-  font-family: "Inconsolata", Arial, sans-serif;
+  /* font-family: "Inconsolata", Arial, sans-serif; */
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-weight: 300;
   font-size: 20px;
   line-height: 1.5;
   color: #cccccc;
   background: #000;
   height: 100%;
+  max-width: 100%;
   position: relative;
 }
 
@@ -40,7 +42,8 @@ p {
 
 h1, h2, h3, h4, h5, h6 {
   color: #fff;
-  font-family: "Inconsolata", Arial, sans-serif;
+  /* font-family: "Inconsolata", Arial, sans-serif; */
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-weight: 400;
   margin: 0 0 30px 0;
 }
@@ -98,7 +101,8 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 #fh5co-header #navbar li a {
-  font-family: "Inconsolata", Arial, sans-serif;
+  /* font-family: "Inconsolata", Arial, sans-serif; */
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   background: rgba(255, 255, 255, 0.2);
   position: relative;
   font-size: 16px;
@@ -565,7 +569,8 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 30px;
   display: block;
   color: white;
-  font-family: "Inconsolata", Arial, sans-serif;
+  /* font-family: "Inconsolata", Arial, sans-serif; */
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   width: 100%;
   font-weight: 400;
   margin-bottom: .3em;
@@ -660,7 +665,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 .section-heading h3 {
-  font-size: 18px;
+  font-size: 3vh;
   font-weight: 400;
   line-height: 1.5;
   position: relative;
@@ -946,20 +951,24 @@ h1, h2, h3, h4, h5, h6 {
 
 .btn {
   background-color: #000000;
-  border: 1px solid gray;
+  border: 1px solid lightgreen;
   border-radius: 5px;
 }
 
 .txt-bg {
-  background-color: #000000;
+  /* background-color: #000000; */
   font-size: 4vh !important;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   /* border: 1px solid gray; */
 }
 
 .img-fit {
+  border-radius: 20px;
   max-height: 60vh !important; 
   right: 0;
   width: auto;
+  display: inline;
+  margin: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */
