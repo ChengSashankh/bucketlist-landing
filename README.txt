@@ -1,14 +1,6 @@
 
 TITLE: 
-Black - One Page Fully Responsive Free HTML5 template
-
-AUTHOR:
-DESIGNED & DEVELOPED by FREEHTML5.co
-
-Website: http://freehtml5.co/
-Twitter: http://twitter.com/fh5co
-Facebook: http://facebook.com/fh5co
-
+Bucketlist Landing Page 
 
 CREDITS:
 
@@ -51,3 +43,6 @@ http://unsplash.com
 
 jQuery Counter
 https://github.com/mhuggins/jquery-countTo
+
+Design Template:
+DESIGNED & DEVELOPED by FREEHTML5.co
